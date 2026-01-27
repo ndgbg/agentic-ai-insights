@@ -18,17 +18,17 @@ Real-world business problems solved with agentic AI:
 
 ### 🎯 [Patterns](./patterns/)
 Proven architectural patterns for agent systems:
-- Multi-Agent Orchestration
+- [Multi-Agent Orchestration](./patterns/multi-agent-orchestration.md)
+- [Tool Design Patterns](./patterns/tool-design-patterns.md) ⭐ NEW
+- [Error Handling Strategies](./patterns/error-handling-strategies.md) ⭐ NEW
 - Memory Management Strategies
-- Tool Integration Patterns
-- Error Handling & Resilience
 - Observability & Monitoring
 
 ### ⚖️ [Comparisons](./comparisons/)
 Framework and platform evaluations:
-- AgentCore vs LangChain vs CrewAI
+- [AgentCore vs LangChain vs CrewAI](./comparisons/framework-comparison.md)
+- [Cost Analysis by Platform](./comparisons/cost-analysis.md) ⭐ NEW
 - When to Use What Framework
-- Cost Analysis by Platform
 - Migration Strategies
 
 ### 🏗️ [Architecture](./architecture/)
@@ -40,9 +40,17 @@ System design for production agents:
 
 ### 📚 [Case Studies](./case-studies/)
 Production deployments and lessons learned:
-- Enterprise Customer Support (Fortune 500)
+- [Enterprise Customer Support Automation](./case-studies/enterprise-customer-support.md) ⭐ NEW
 - DevOps Automation (Tech Startup)
 - Data Analysis Platform (Financial Services)
+
+## Recent Additions
+
+### January 2026
+- ⭐ **Tool Design Patterns** - Comprehensive guide to building reliable agent tools
+- ⭐ **Error Handling Strategies** - Production-ready error handling for agents
+- ⭐ **Enterprise Customer Support Case Study** - Real-world implementation with ROI data
+- ⭐ **Cost Analysis** - Detailed cost breakdown across platforms and frameworks
 
 ## Who This Is For
 
