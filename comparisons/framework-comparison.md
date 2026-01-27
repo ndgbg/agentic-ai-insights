@@ -104,7 +104,8 @@ Choosing the right agentic AI framework is critical for success. This comparison
 - Proof of concepts
 
 **Cost:** $$
-- Similar to LangChain
+- Open source framework: Free
+- CrewAI+ (managed platform): Starting at $99/month
 - Faster development time
 
 **Example Use Case:** Marketing team automating content creation
