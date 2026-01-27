@@ -86,6 +86,8 @@ A comprehensive comparison of AI-powered coding tools, from autocomplete to agen
 **Pricing:**
 - Free: 2,000 completions/month
 - Pro: $20/month (unlimited)
+- Pro+: $60/month (more premium requests)
+- Ultra: $200/month (20x usage limits)
 - Business: $40/user/month
 
 **Best For:** Developers building complex features
@@ -146,12 +148,15 @@ A comprehensive comparison of AI-powered coding tools, from autocomplete to agen
 - ❌ Newer, less mature
 - ❌ Smaller community
 - ❌ Limited enterprise features
-- ❌ Privacy concerns (free = data training?)
+- ❌ Credit-based system (not truly unlimited)
 
 **Pricing:**
-- Free: Unlimited
+- Free: 25 credits/month
+- Pro: $15/month (500 credits)
+- Teams: $30/user/month
+- Enterprise: $60/user/month
 
-**Best For:** Developers wanting free agentic IDE
+**Best For:** Developers wanting affordable agentic IDE
 
 **Agent Score:** 7/10 (Agentic with Cascade)
 
@@ -212,7 +217,8 @@ A comprehensive comparison of AI-powered coding tools, from autocomplete to agen
 
 **Pricing:**
 - Free tier available
-- Core: $20/month
+- Core: $20/month ($25 in Agent credits)
+- Pro: $100/month (for teams, tiered credits)
 - Teams: Custom
 
 **Best For:** Rapid prototyping, beginners, demos
@@ -332,9 +338,9 @@ Open source, use your own LLM, full customization. Best for teams with specific 
 Terminal-native with GUI option, can execute commands, read/write files, integrate with your workflow.
 
 ### "I want free unlimited usage"
-→ **Windsurf**
+→ **Continue.dev**
 
-Only agentic IDE that's completely free with unlimited usage.
+Open source with your own LLM. Windsurf has free tier but with credit limits.
 
 ## The Agentic Spectrum
 
@@ -371,11 +377,11 @@ Only agentic IDE that's completely free with unlimited usage.
 | Tool | Free Tier | Paid Tier | Enterprise |
 |------|-----------|-----------|------------|
 | Copilot | ❌ | $10/mo | $19/user/mo |
-| Cursor | 2K completions | $20/mo | $40/user/mo |
+| Cursor | 2K completions | $20/mo (Pro), $60/mo (Pro+), $200/mo (Ultra) | $40/user/mo |
 | Kiro | ✅ | TBD | TBD |
-| Windsurf | ✅ Unlimited | ❌ | TBD |
+| Windsurf | 25 credits | $15/mo | $60/user/mo |
 | Continue | ✅ (+ LLM costs) | ❌ | ❌ |
-| Replit | ✅ Limited | $20/mo | Custom |
+| Replit | ✅ Limited | $20/mo (Core), $100/mo (Pro) | Custom |
 | v0 | 200 credits | $20/mo | N/A |
 | Bolt | ✅ Limited | $20/mo | N/A |
 
@@ -482,10 +488,9 @@ From reactive to proactive:
 - Great balance of features
 - Strong codebase understanding
 
-**Best Value:** **Windsurf**
-- Free unlimited usage
-- Agentic features
-- Fast and capable
+**Best Value:** **Windsurf** or **Cursor Pro**
+- Windsurf: $15/month for agentic features
+- Cursor: $20/month, more mature
 
 **Most Agentic:** **Kiro**
 - True autonomous agent
