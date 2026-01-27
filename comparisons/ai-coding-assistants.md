@@ -105,23 +105,22 @@ A comprehensive comparison of AI-powered coding tools, from autocomplete to agen
 
 **Strengths:**
 - ✅ True agent (autonomous execution)
-- ✅ Terminal-native workflow
+- ✅ Terminal and GUI interfaces
 - ✅ AWS operations built-in
 - ✅ File system access
 - ✅ Can run and test code
 - ✅ MCP server support
 
 **Weaknesses:**
-- ❌ CLI-only (no GUI)
-- ❌ Steeper learning curve
-- ❌ Limited to terminal workflows
+- ❌ Newer tool, smaller community
+- ❌ Learning curve for agentic workflows
 - ❌ No inline autocomplete
 
 **Pricing:**
 - Free tier available
 - Pro: TBD
 
-**Best For:** DevOps engineers, infrastructure work, AWS users
+**Best For:** DevOps engineers, infrastructure work, AWS users, developers wanting agentic assistance
 
 **Agent Score:** 9/10 (Fully agentic)
 
@@ -330,7 +329,7 @@ Open source, use your own LLM, full customization. Best for teams with specific 
 ### "I'm working in the terminal a lot"
 → **Kiro**
 
-Terminal-native, can execute commands, read/write files, integrate with your workflow.
+Terminal-native with GUI option, can execute commands, read/write files, integrate with your workflow.
 
 ### "I want free unlimited usage"
 → **Windsurf**
