@@ -11,7 +11,6 @@ A comprehensive resource for product managers, architects, and technical leaders
 ## 🚀 Quick Start
 
 - **New to agentic AI?** → [Getting Started Guide](./getting-started.md)
-- **Need quick answers?** → [Quick Reference](./quick-reference.md)
 - **Evaluating frameworks?** → [Framework Comparison](./comparisons/framework-comparison.md)
 - **Building a business case?** → [Cost Analysis](./comparisons/cost-analysis.md)
 
@@ -191,7 +190,6 @@ This is a living resource based on real-world experience. Contributions welcome:
 
 ### January 2026
 - ✨ Added [Getting Started Guide](./getting-started.md)
-- ✨ Added [Quick Reference](./quick-reference.md)
 - ✨ Expanded all use cases with real-world examples
 - ✨ Added [AI Coding Assistants comparison](./comparisons/ai-coding-assistants.md)
 - ✨ Updated pricing for 2026
