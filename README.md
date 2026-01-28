@@ -2,75 +2,78 @@
 
 Strategic insights, patterns, and frameworks for building production agentic AI systems.
 
-## About
+## 🎯 What This Is
 
-This repository captures learnings, patterns, and strategic thinking from building and deploying AI agents at scale. It's designed for product managers, architects, and technical leaders evaluating agentic AI for enterprise use.
+A comprehensive resource for product managers, architects, and technical leaders evaluating and implementing agentic AI. Based on real-world experience building and deploying agent systems at scale.
 
-## Contents
+**Not theory. Not hype. Just practical guidance.**
 
-### 📊 [Use Cases](./use-cases/)
+## 🚀 Quick Start
+
+- **New to agentic AI?** → [Getting Started Guide](./getting-started.md)
+- **Need quick answers?** → [Quick Reference](./quick-reference.md)
+- **Evaluating frameworks?** → [Framework Comparison](./comparisons/framework-comparison.md)
+- **Building a business case?** → [Cost Analysis](./comparisons/cost-analysis.md)
+
+## 📚 Contents
+
+### 🎯 [Use Cases](./use-cases/)
 Real-world business problems solved with agentic AI:
-- Customer Support Automation
-- DevOps Intelligence
-- Data Analysis & Insights
-- Code Review & Quality
-- Research & Synthesis
 
-### 🎯 [Patterns](./patterns/)
+- **[Customer Support Automation](./use-cases/customer-support.md)** - Multi-agent system handling 80% of tickets, 99% faster response time
+- **[DevOps Intelligence](./use-cases/devops-intelligence.md)** - Automated incident response, 81% reduction in MTTR
+- **[Data Analysis](./use-cases/data-analysis.md)** - Natural language to SQL, 10x increase in data-driven decisions
+- **[Code Review](./use-cases/code-review.md)** - Automated security and quality checks, 85% time savings
+- **[Research & Synthesis](./use-cases/research-synthesis.md)** - Automated research reports, 90% time reduction
+
+Each includes:
+- Multi-agent architecture
+- Real-world examples with actual numbers
+- Implementation code
+- Business impact metrics
+- Getting started guide
+
+### 🎨 [Patterns](./patterns/)
 Proven architectural patterns for agent systems:
-- [Multi-Agent Orchestration](./patterns/multi-agent-orchestration.md)
-- [Tool Design Patterns](./patterns/tool-design-patterns.md) ⭐ NEW
-- [Error Handling Strategies](./patterns/error-handling-strategies.md) ⭐ NEW
-- Memory Management Strategies
-- Observability & Monitoring
+
+- **[Multi-Agent Orchestration](./patterns/multi-agent-orchestration.md)** - Coordinate multiple specialized agents
+- **[Tool Design Patterns](./patterns/tool-design-patterns.md)** - Build reliable tools agents can use
+- **[Error Handling Strategies](./patterns/error-handling-strategies.md)** - Production-ready error handling
+- **[Skills, Scripts, and Knowledge](./patterns/skills-scripts-knowledge.md)** - The three pillars of agent capability
 
 ### ⚖️ [Comparisons](./comparisons/)
 Framework and platform evaluations:
-- [AgentCore vs LangChain vs CrewAI](./comparisons/framework-comparison.md)
-- [Cost Analysis by Platform](./comparisons/cost-analysis.md) ⭐ NEW
-- When to Use What Framework
-- Migration Strategies
+
+- **[Framework Comparison](./comparisons/framework-comparison.md)** - AgentCore vs LangChain vs CrewAI vs AutoGen
+- **[AI Coding Assistants](./comparisons/ai-coding-assistants.md)** - Cursor vs Kiro vs Windsurf vs Copilot vs 4 others
+- **[Cost Analysis](./comparisons/cost-analysis.md)** - Detailed cost breakdown across platforms and scale
 
 ### 🏗️ [Architecture](./architecture/)
 System design for production agents:
-- Reference Architectures
-- Deployment Patterns
-- Scaling Considerations
-- Security & Compliance
 
-### 📚 [Case Studies](./case-studies/)
+- **[Production Reference Architecture](./architecture/production-reference.md)** - Deployment patterns, scaling, security
+
+### 📖 [Case Studies](./case-studies/)
 Production deployments and lessons learned:
-- [Enterprise Customer Support Automation](./case-studies/enterprise-customer-support.md) ⭐ NEW
-- DevOps Automation (Tech Startup)
-- Data Analysis Platform (Financial Services)
 
-## Recent Additions
+- **[Enterprise Customer Support](./case-studies/enterprise-customer-support.md)** - Fortune 500 implementation, $1.2M annual savings
 
-### January 2026
-- ⭐ **Tool Design Patterns** - Comprehensive guide to building reliable agent tools
-- ⭐ **Error Handling Strategies** - Production-ready error handling for agents
-- ⭐ **Enterprise Customer Support Case Study** - Real-world implementation with ROI data
-- ⭐ **Cost Analysis** - Detailed cost breakdown across platforms and frameworks
-
-## Who This Is For
-
-- **Product Managers** evaluating agentic AI for their products
-- **Technical Leaders** designing agent architectures
-- **Engineers** implementing production agent systems
-- **Business Leaders** understanding ROI and feasibility
-
-## Key Insights
+## 💡 Key Insights
 
 ### When to Use Agentic AI
-✅ Complex, multi-step workflows
-✅ Need for reasoning and decision-making
-✅ Integration with multiple tools/APIs
-✅ Personalization and context awareness
 
-❌ Simple classification tasks
-❌ Real-time latency requirements (<100ms)
-❌ Deterministic, rule-based logic
-❌ Cost-sensitive, high-volume operations
+✅ **Good Fit:**
+- Complex, multi-step workflows
+- Need for reasoning and decision-making
+- Integration with multiple tools/APIs
+- Personalization and context awareness
+- 24/7 availability required
+
+❌ **Not a Good Fit:**
+- Simple classification tasks
+- Real-time latency requirements (<100ms)
+- Deterministic, rule-based logic
+- Cost-sensitive, high-volume operations (>1M/day)
 
 ### Framework Selection Matrix
 
@@ -81,29 +84,163 @@ Production deployments and lessons learned:
 | CrewAI | Role-based teams | Low | $$ |
 | AutoGen | Code generation | Medium | $$ |
 
-### Production Readiness Checklist
+### Typical ROI
 
-- [ ] Observability and monitoring
-- [ ] Error handling and fallbacks
-- [ ] Cost controls and budgets
-- [ ] Security and access control
-- [ ] Performance benchmarks
-- [ ] User feedback loops
+- **Break-even:** 3-6 months
+- **Year 1 ROI:** 200-500%
+- **Year 2+ ROI:** 500-1000%
 
-## Contributing
+## 🎓 Learning Path
 
-This is a living document based on real-world experience. Contributions welcome:
+### Beginners
+1. Read [Getting Started Guide](./getting-started.md)
+2. Review [Customer Support Use Case](./use-cases/customer-support.md)
+3. Check [Framework Comparison](./comparisons/framework-comparison.md)
+4. Start with a small pilot
+
+### Intermediate
+1. Study [Multi-Agent Orchestration](./patterns/multi-agent-orchestration.md)
+2. Review [Tool Design Patterns](./patterns/tool-design-patterns.md)
+3. Read [Enterprise Case Study](./case-studies/enterprise-customer-support.md)
+4. Plan production deployment
+
+### Advanced
+1. Deep dive into [Error Handling Strategies](./patterns/error-handling-strategies.md)
+2. Review [Production Architecture](./architecture/production-reference.md)
+3. Study [Cost Analysis](./comparisons/cost-analysis.md)
+4. Optimize for scale
+
+## 📊 What You'll Learn
+
+### Strategic
+- When to use agentic AI (and when not to)
+- How to build a business case
+- Framework selection criteria
+- ROI calculation methods
+
+### Technical
+- Multi-agent architectures
+- Tool design patterns
+- Error handling strategies
+- Production deployment patterns
+
+### Practical
+- Real-world examples with code
+- Cost breakdowns by scale
+- Common pitfalls and solutions
+- Getting started checklists
+
+## 🎯 Who This Is For
+
+### Product Managers
+- Evaluate agentic AI for your products
+- Build business cases with real numbers
+- Understand technical trade-offs
+- Plan implementation roadmaps
+
+### Technical Leaders
+- Design agent architectures
+- Choose the right framework
+- Plan for production scale
+- Manage technical risks
+
+### Engineers
+- Implement production agent systems
+- Learn proven patterns
+- Avoid common pitfalls
+- Optimize for cost and performance
+
+### Business Leaders
+- Understand ROI and feasibility
+- Evaluate vendor claims
+- Make informed decisions
+- Set realistic expectations
+
+## 🔥 Popular Content
+
+1. **[AI Coding Assistants Comparison](./comparisons/ai-coding-assistants.md)** - Comprehensive analysis of 8 tools
+2. **[Customer Support Automation](./use-cases/customer-support.md)** - Complete implementation guide
+3. **[Cost Analysis](./comparisons/cost-analysis.md)** - Real numbers across platforms
+4. **[Tool Design Patterns](./patterns/tool-design-patterns.md)** - Build reliable agent tools
+5. **[Getting Started Guide](./getting-started.md)** - Week-by-week implementation plan
+
+## 💰 Cost Expectations
+
+### Pilot Phase
+- Development: $30K-$60K
+- Infrastructure: $5K-$10K
+- Testing: $10K-$20K
+- **Total: $50K-$100K**
+
+### Production (Monthly)
+- Small (1K queries/day): $2K-$5K
+- Medium (10K queries/day): $10K-$20K
+- Large (100K queries/day): $50K-$100K
+
+### Typical Savings
+- Customer support: $2.4M/year (illustrative)
+- DevOps: $650K/year
+- Data analysis: $730K/year
+- Code review: $416K/year
+
+## 🚀 Quick Wins
+
+Start with these for fastest ROI:
+
+1. **FAQ Automation** - 2 weeks, 60% ticket deflection
+2. **Alert Triage** - 3 weeks, 80% noise reduction
+3. **SQL Generation** - 2 weeks, 10x faster insights
+4. **Code Security Scanning** - 4 weeks, 95% vulnerability detection
+
+## 📈 Success Metrics
+
+### Technical
+- Accuracy: >85%
+- Response time: <2 seconds
+- Uptime: >99.5%
+- Error rate: <1%
+
+### Business
+- Cost per interaction: <$0.10
+- User satisfaction: >4/5
+- Time saved: >50%
+- ROI: >200% year 1
+
+## 🤝 Contributing
+
+This is a living resource based on real-world experience. Contributions welcome:
+
 - Share your learnings
 - Add case studies
 - Suggest patterns
 - Challenge assumptions
 
-## Author
+## 📬 Connect
 
-**Nida Beig**  
-Product Manager focused on Agentic AI  
-[GitHub](https://github.com/ndgbg) | [LinkedIn](#)
+**Author:** Nida Beig  
+**Focus:** Agentic AI Product Management  
+**GitHub:** [github.com/ndgbg](https://github.com/ndgbg)  
+**LinkedIn:** [linkedin.com/in/nida-beig](https://www.linkedin.com/in/nida-beig/)
+
+## 🔗 Related Resources
+
+- **[Agentic Playground](https://github.com/ndgbg/agentic-playground)** - 20 production-ready agent demos with working code
+- **[AWS Bedrock AgentCore](https://aws.amazon.com/bedrock/agentcore/)** - Managed agent platform
+- **[LangChain](https://www.langchain.com/)** - Open-source agent framework
+- **[CrewAI](https://www.crewai.com/)** - Role-based agent framework
+
+## 📝 Recent Updates
+
+### January 2026
+- ✨ Added [Getting Started Guide](./getting-started.md)
+- ✨ Added [Quick Reference](./quick-reference.md)
+- ✨ Expanded all use cases with real-world examples
+- ✨ Added [AI Coding Assistants comparison](./comparisons/ai-coding-assistants.md)
+- ✨ Updated pricing for 2026
+- ✨ Added [Skills, Scripts, Knowledge framework](./patterns/skills-scripts-knowledge.md)
 
 ---
 
-*Last Updated: January 2026*
+**Disclaimer:** All views and opinions expressed here are my own and do not represent those of my employer. Cost savings and ROI figures are illustrative examples based on typical implementations, not guarantees.
+
+**Last Updated:** January 2026
