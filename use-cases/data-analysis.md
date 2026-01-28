@@ -419,3 +419,97 @@ Agent: Generates report, sends via email
 **Timeline:** 8 weeks from concept to production  
 **Team Size:** 1 PM, 2 engineers, 1 data analyst  
 **Last Updated:** January 2026
+
+## Real-World Examples
+
+### Example 1: Sales Performance Analysis
+
+**Business User Question:** "Which regions had the highest revenue growth last quarter?"
+
+**Agent Process:**
+1. **SQL Agent** generates:
+```sql
+SELECT region, 
+       SUM(revenue) as current_quarter,
+       LAG(SUM(revenue)) OVER (PARTITION BY region ORDER BY quarter) as previous_quarter,
+       (SUM(revenue) - LAG(SUM(revenue)) OVER (PARTITION BY region ORDER BY quarter)) / 
+       LAG(SUM(revenue)) OVER (PARTITION BY region ORDER BY quarter) * 100 as growth_pct
+FROM sales
+WHERE quarter IN ('Q3-2025', 'Q4-2025')
+GROUP BY region, quarter
+ORDER BY growth_pct DESC;
+```
+
+2. **Visualization Agent** creates bar chart showing growth by region
+
+3. **Insights Agent** explains:
+   - "West region grew 45% ($2.1M → $3.0M)"
+   - "Driven by 3 new enterprise customers"
+   - "East region declined 12% - investigate"
+
+**Follow-up:** "Why did East region decline?"
+- Agent analyzes customer churn data
+- Identifies pricing competition
+- Suggests retention strategies
+
+**Time:** 30 seconds (vs 2 days waiting for analyst)
+
+### Example 2: Customer Churn Prediction
+
+**Question:** "Show me customers at risk of churning"
+
+**Agent Actions:**
+1. Analyzes usage patterns (declining activity)
+2. Checks support ticket sentiment (negative)
+3. Reviews payment history (late payments)
+4. Generates risk score for each customer
+
+**Output:**
+- List of 47 at-risk customers
+- Risk factors for each
+- Recommended interventions
+- Expected revenue impact: $280K
+
+**Business Action:** Sales team reaches out proactively, saves 60% of at-risk accounts
+
+### Example 3: Inventory Optimization
+
+**Question:** "Which products are overstocked?"
+
+**Agent Analysis:**
+1. Calculates inventory turnover ratio
+2. Compares to historical averages
+3. Factors in seasonal trends
+4. Identifies slow-moving items
+
+**Insights:**
+- 23 products with >90 days inventory
+- $450K tied up in excess stock
+- Recommends clearance sale
+- Suggests adjusted reorder points
+
+**Result:** Freed up $300K in working capital
+
+### Example 4: Marketing Campaign ROI
+
+**Question:** "What's the ROI of our email campaigns?"
+
+**Agent Calculation:**
+```
+Revenue from email clicks: $125K
+Campaign cost: $15K
+ROI: 733%
+
+Breakdown by segment:
+- Enterprise: 1,200% ROI
+- SMB: 400% ROI
+- Free users: -20% ROI (cost > revenue)
+```
+
+**Recommendation:** "Focus budget on Enterprise segment, reduce free user campaigns"
+
+**Business Impact:** Reallocated $50K budget, increased overall ROI by 40%
+
+---
+
+**Last Updated:** January 2026

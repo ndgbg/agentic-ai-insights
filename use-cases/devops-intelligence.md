@@ -367,3 +367,72 @@ Agent: "Database connection pool at 95% capacity.
 **Timeline:** 10 weeks from concept to production  
 **Team Size:** 1 PM, 2 engineers, 1 SRE lead  
 **Last Updated:** January 2026
+
+## Real-World Examples
+
+### Example 1: High CPU Alert
+
+**Alert:** "EC2 instance i-abc123 CPU > 90%"
+
+**Traditional Response (2 hours):**
+1. Engineer gets paged
+2. Logs into AWS console
+3. Checks CloudWatch metrics
+4. Reviews application logs
+5. Identifies memory leak
+6. Restarts service
+7. Monitors for recurrence
+
+**Agentic AI Response (5 minutes):**
+1. **Triage Agent**: Classifies as "performance issue", severity "medium"
+2. **Diagnostic Agent**: 
+   - Checks CPU history (spiked 30 min ago)
+   - Analyzes application logs (OutOfMemoryError)
+   - Correlates with deployment (new version 2 hours ago)
+   - Identifies root cause: memory leak in new code
+3. **Remediation Agent**:
+   - Rolls back to previous version
+   - Restarts affected instances
+   - Creates GitHub issue with analysis
+   - Notifies team on Slack
+
+**Result:** Issue resolved before customer impact, engineer reviews post-mortem
+
+### Example 2: Database Connection Failures
+
+**Alert:** "RDS connection pool exhausted"
+
+**Agent Analysis:**
+- Checks connection count (maxed at 100)
+- Reviews slow query log (3 queries taking 30+ seconds)
+- Identifies N+1 query pattern in recent deployment
+- Correlates with increased traffic (+40% from marketing campaign)
+
+**Agent Actions:**
+1. Increases connection pool temporarily (100 → 150)
+2. Adds index to slow queries
+3. Creates ticket for code optimization
+4. Suggests caching layer
+
+**Result:** Immediate mitigation + long-term fix identified
+
+### Example 3: Cascading Failure Prevention
+
+**Alert:** "API latency increasing"
+
+**Agent Detection:**
+- Notices latency trend (200ms → 800ms over 10 minutes)
+- Predicts service degradation in 15 minutes
+- Identifies upstream dependency slowdown
+
+**Proactive Actions:**
+1. Enables circuit breaker
+2. Scales API instances preemptively
+3. Notifies team of potential incident
+4. Prepares rollback plan
+
+**Result:** Prevented outage, handled gracefully
+
+---
+
+**Last Updated:** January 2026
