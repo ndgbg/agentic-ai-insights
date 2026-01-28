@@ -164,48 +164,6 @@ Production deployments and lessons learned:
 4. **[Tool Design Patterns](./patterns/tool-design-patterns.md)** - Build reliable agent tools
 5. **[Getting Started Guide](./getting-started.md)** - Week-by-week implementation plan
 
-## 💰 Cost Expectations
-
-### Pilot Phase
-- Development: $30K-$60K
-- Infrastructure: $5K-$10K
-- Testing: $10K-$20K
-- **Total: $50K-$100K**
-
-### Production (Monthly)
-- Small (1K queries/day): $2K-$5K
-- Medium (10K queries/day): $10K-$20K
-- Large (100K queries/day): $50K-$100K
-
-### Typical Savings
-- Customer support: $2.4M/year (illustrative)
-- DevOps: $650K/year
-- Data analysis: $730K/year
-- Code review: $416K/year
-
-## 🚀 Quick Wins
-
-Start with these for fastest ROI:
-
-1. **FAQ Automation** - 2 weeks, 60% ticket deflection
-2. **Alert Triage** - 3 weeks, 80% noise reduction
-3. **SQL Generation** - 2 weeks, 10x faster insights
-4. **Code Security Scanning** - 4 weeks, 95% vulnerability detection
-
-## 📈 Success Metrics
-
-### Technical
-- Accuracy: >85%
-- Response time: <2 seconds
-- Uptime: >99.5%
-- Error rate: <1%
-
-### Business
-- Cost per interaction: <$0.10
-- User satisfaction: >4/5
-- Time saved: >50%
-- ROI: >200% year 1
-
 ## 🤝 Contributing
 
 This is a living resource based on real-world experience. Contributions welcome:
