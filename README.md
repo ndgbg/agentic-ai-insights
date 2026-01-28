@@ -10,9 +10,9 @@ A comprehensive resource for product managers, architects, and technical leaders
 
 ## 🚀 Quick Start
 
-- **New to agentic AI?** → [Getting Started Guide](./getting-started.md)
 - **Evaluating frameworks?** → [Framework Comparison](./comparisons/framework-comparison.md)
 - **Building a business case?** → [Cost Analysis](./comparisons/cost-analysis.md)
+- **Looking for examples?** → [Use Cases](./use-cases/)
 
 ## 📚 Contents
 
@@ -161,7 +161,7 @@ Production deployments and lessons learned:
 2. **[Customer Support Automation](./use-cases/customer-support.md)** - Complete implementation guide
 3. **[Cost Analysis](./comparisons/cost-analysis.md)** - Real numbers across platforms
 4. **[Tool Design Patterns](./patterns/tool-design-patterns.md)** - Build reliable agent tools
-5. **[Getting Started Guide](./getting-started.md)** - Week-by-week implementation plan
+5. **[Framework Comparison](./comparisons/framework-comparison.md)** - Choose the right framework
 
 ## 🤝 Contributing
 
@@ -189,7 +189,6 @@ This is a living resource based on real-world experience. Contributions welcome:
 ## 📝 Recent Updates
 
 ### January 2026
-- ✨ Added [Getting Started Guide](./getting-started.md)
 - ✨ Expanded all use cases with real-world examples
 - ✨ Added [AI Coding Assistants comparison](./comparisons/ai-coding-assistants.md)
 - ✨ Updated pricing for 2026
