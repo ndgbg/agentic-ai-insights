@@ -1,5 +1,9 @@
 # 🧠 Agentic AI Insights
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Claude Skills](https://img.shields.io/badge/Claude-Skills-orange.svg)](https://www.anthropic.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 Strategic insights, patterns, and frameworks for building production agentic AI systems.
 
 ## 🎯 What This Is
