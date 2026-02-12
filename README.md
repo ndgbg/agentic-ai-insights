@@ -42,6 +42,7 @@ Proven architectural patterns for agent systems:
 - **[Multi-Agent Orchestration](./patterns/multi-agent-orchestration.md)** - Coordinate multiple specialized agents
 - **[Tool Design Patterns](./patterns/tool-design-patterns.md)** - Build reliable tools agents can use
 - **[Error Handling Strategies](./patterns/error-handling-strategies.md)** - Production-ready error handling
+- **[Steering](./patterns/steering.md)** - Guide agent behavior without retraining
 - **[Skills, Scripts, and Knowledge](./patterns/skills-scripts-knowledge.md)** - The three pillars of agent capability
 
 ### ⚖️ [Comparisons](./comparisons/)
@@ -192,6 +193,9 @@ This is a living resource based on real-world experience. Contributions welcome:
 
 ## 📝 Recent Updates
 
+### February 2026
+- ✨ Added [Steering](./patterns/steering.md) - Guide agent behavior without retraining
+
 ### January 2026
 - ✨ Expanded all use cases with real-world examples
 - ✨ Added [AI Coding Assistants comparison](./comparisons/ai-coding-assistants.md)
@@ -202,4 +206,4 @@ This is a living resource based on real-world experience. Contributions welcome:
 
 **Disclaimer:** All views and opinions expressed here are my own and do not represent those of my employer. Cost savings and ROI figures are illustrative examples based on typical implementations, not guarantees.
 
-**Last Updated:** January 2026
+**Last Updated:** February 2026
