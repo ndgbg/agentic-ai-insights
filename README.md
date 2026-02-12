@@ -43,7 +43,7 @@ Proven architectural patterns for agent systems:
 - **[Tool Design Patterns](./patterns/tool-design-patterns.md)** - Build reliable tools agents can use
 - **[Error Handling Strategies](./patterns/error-handling-strategies.md)** - Production-ready error handling
 - **[Steering](./patterns/steering.md)** - Guide agent behavior without retraining
-- **[Claude for Developers](./patterns/claude-for-developers.md)** - Getting started and best practices for coding with Claude
+- **[Claude Code](./patterns/claude-code.md)** - Complete guide to Anthropic's CLI coding assistant
 - **[Skills, Scripts, and Knowledge](./patterns/skills-scripts-knowledge.md)** - The three pillars of agent capability
 
 ### ⚖️ [Comparisons](./comparisons/)
@@ -195,7 +195,7 @@ This is a living resource based on real-world experience. Contributions welcome:
 ## 📝 Recent Updates
 
 ### February 2026
-- ✨ Added [Claude for Developers](./patterns/claude-for-developers.md) - Getting started and best practices
+- ✨ Added [Claude Code](./patterns/claude-code.md) - Complete guide to Anthropic's CLI coding assistant
 - ✨ Added [Steering](./patterns/steering.md) - Guide agent behavior without retraining
 
 ### January 2026
