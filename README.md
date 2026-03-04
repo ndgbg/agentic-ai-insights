@@ -58,10 +58,7 @@ System design for production agents:
 
 - **[Production Reference Architecture](./architecture/production-reference.md)** - Deployment patterns, scaling, security
 
-### 📖 [Case Studies](./case-studies/)
-Production deployments and lessons learned:
 
-- **[Enterprise Customer Support](./case-studies/enterprise-customer-support.md)** - Fortune 500 implementation, $1.2M annual savings
 
 ## 💡 Key Insights
 
@@ -106,8 +103,7 @@ Production deployments and lessons learned:
 ### Intermediate
 1. Study [Multi-Agent Orchestration](./patterns/multi-agent-orchestration.md)
 2. Review [Tool Design Patterns](./patterns/tool-design-patterns.md)
-3. Read [Enterprise Case Study](./case-studies/enterprise-customer-support.md)
-4. Plan production deployment
+3. Plan production deployment
 
 ### Advanced
 1. Deep dive into [Error Handling Strategies](./patterns/error-handling-strategies.md)
